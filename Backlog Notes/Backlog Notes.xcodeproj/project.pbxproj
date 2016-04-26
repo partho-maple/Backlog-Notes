@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77221AC41CCFE4B50054D349 /* libCHDataStructures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77221AC01CCFE4B50054D349 /* libCHDataStructures.a */; };
+		77221AC51CCFE4B50054D349 /* DALinedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77221AC31CCFE4B50054D349 /* DALinedTextView.m */; };
 		A66B8C3717A3BD1100E95A07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B8C3617A3BD1100E95A07 /* UIKit.framework */; };
 		A66B8C3917A3BD1100E95A07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B8C3817A3BD1100E95A07 /* Foundation.framework */; };
 		A66B8C3B17A3BD1100E95A07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B8C3A17A3BD1100E95A07 /* CoreGraphics.framework */; };
@@ -20,7 +22,6 @@
 		A66B8CAD17A3D84800E95A07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B8C9317A3D84800E95A07 /* AppDelegate.m */; };
 		A66B8CAE17A3D84800E95A07 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B8C9517A3D84800E95A07 /* ChecklistItem.m */; };
 		A66B8CAF17A3D84800E95A07 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B8C9717A3D84800E95A07 /* NotesViewController.m */; };
-		A66B8CB017A3D84800E95A07 /* DALinedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B8C9A17A3D84800E95A07 /* DALinedTextView.m */; };
 		A66B8CB117A3D84800E95A07 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B8C9C17A3D84800E95A07 /* DataModel.m */; };
 		AE12583E18C8E41E008F9C3F /* iOS_Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AE12583D18C8E41E008F9C3F /* iOS_Constants.m */; };
 		AE12584018C8E6A1008F9C3F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE12583F18C8E6A1008F9C3F /* CoreImage.framework */; };
@@ -41,10 +42,48 @@
 		AE7E559418C39C0C00C24F69 /* category@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7E559018C39C0C00C24F69 /* category@2x.png */; };
 		AE7E559518C39C0C00C24F69 /* ipad-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7E559118C39C0C00C24F69 /* ipad-arrow.png */; };
 		AE7E559618C39C0C00C24F69 /* ipad-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7E559218C39C0C00C24F69 /* ipad-arrow@2x.png */; };
-		AEB0477518DCF4DD00B49E83 /* libCHDataStructures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB0477418DCF4DD00B49E83 /* libCHDataStructures.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77221A9C1CCFE4B50054D349 /* CHAbstractBinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractBinarySearchTree.h; sourceTree = "<group>"; };
+		77221A9D1CCFE4B50054D349 /* CHAbstractBinarySearchTree_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractBinarySearchTree_Internal.h; sourceTree = "<group>"; };
+		77221A9E1CCFE4B50054D349 /* CHAbstractListCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractListCollection.h; sourceTree = "<group>"; };
+		77221A9F1CCFE4B50054D349 /* CHAnderssonTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAnderssonTree.h; sourceTree = "<group>"; };
+		77221AA01CCFE4B50054D349 /* CHAVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAVLTree.h; sourceTree = "<group>"; };
+		77221AA11CCFE4B50054D349 /* CHBidirectionalDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBidirectionalDictionary.h; sourceTree = "<group>"; };
+		77221AA21CCFE4B50054D349 /* CHBinaryHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBinaryHeap.h; sourceTree = "<group>"; };
+		77221AA31CCFE4B50054D349 /* CHCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBuffer.h; sourceTree = "<group>"; };
+		77221AA41CCFE4B50054D349 /* CHCircularBufferDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBufferDeque.h; sourceTree = "<group>"; };
+		77221AA51CCFE4B50054D349 /* CHCircularBufferQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBufferQueue.h; sourceTree = "<group>"; };
+		77221AA61CCFE4B50054D349 /* CHCircularBufferStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBufferStack.h; sourceTree = "<group>"; };
+		77221AA71CCFE4B50054D349 /* CHDataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDataStructures.h; sourceTree = "<group>"; };
+		77221AA81CCFE4B50054D349 /* CHDataStructures_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDataStructures_Prefix.pch; sourceTree = "<group>"; };
+		77221AA91CCFE4B50054D349 /* CHDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDeque.h; sourceTree = "<group>"; };
+		77221AAA1CCFE4B50054D349 /* CHDoublyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDoublyLinkedList.h; sourceTree = "<group>"; };
+		77221AAB1CCFE4B50054D349 /* CHHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHeap.h; sourceTree = "<group>"; };
+		77221AAC1CCFE4B50054D349 /* CHLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLinkedList.h; sourceTree = "<group>"; };
+		77221AAD1CCFE4B50054D349 /* CHListDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListDeque.h; sourceTree = "<group>"; };
+		77221AAE1CCFE4B50054D349 /* CHListQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListQueue.h; sourceTree = "<group>"; };
+		77221AAF1CCFE4B50054D349 /* CHListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListStack.h; sourceTree = "<group>"; };
+		77221AB01CCFE4B50054D349 /* CHMultiDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMultiDictionary.h; sourceTree = "<group>"; };
+		77221AB11CCFE4B50054D349 /* CHMutableArrayHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableArrayHeap.h; sourceTree = "<group>"; };
+		77221AB21CCFE4B50054D349 /* CHMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableDictionary.h; sourceTree = "<group>"; };
+		77221AB31CCFE4B50054D349 /* CHMutableSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableSet.h; sourceTree = "<group>"; };
+		77221AB41CCFE4B50054D349 /* CHOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOrderedDictionary.h; sourceTree = "<group>"; };
+		77221AB51CCFE4B50054D349 /* CHOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOrderedSet.h; sourceTree = "<group>"; };
+		77221AB61CCFE4B50054D349 /* CHQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQueue.h; sourceTree = "<group>"; };
+		77221AB71CCFE4B50054D349 /* CHRedBlackTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRedBlackTree.h; sourceTree = "<group>"; };
+		77221AB81CCFE4B50054D349 /* CHSearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSearchTree.h; sourceTree = "<group>"; };
+		77221AB91CCFE4B50054D349 /* CHSinglyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSinglyLinkedList.h; sourceTree = "<group>"; };
+		77221ABA1CCFE4B50054D349 /* CHSortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSortedDictionary.h; sourceTree = "<group>"; };
+		77221ABB1CCFE4B50054D349 /* CHSortedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSortedSet.h; sourceTree = "<group>"; };
+		77221ABC1CCFE4B50054D349 /* CHStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHStack.h; sourceTree = "<group>"; };
+		77221ABD1CCFE4B50054D349 /* CHTreap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTreap.h; sourceTree = "<group>"; };
+		77221ABE1CCFE4B50054D349 /* CHUnbalancedTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUnbalancedTree.h; sourceTree = "<group>"; };
+		77221ABF1CCFE4B50054D349 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		77221AC01CCFE4B50054D349 /* libCHDataStructures.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCHDataStructures.a; sourceTree = "<group>"; };
+		77221AC21CCFE4B50054D349 /* DALinedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALinedTextView.h; sourceTree = "<group>"; };
+		77221AC31CCFE4B50054D349 /* DALinedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALinedTextView.m; sourceTree = "<group>"; };
 		A66B8C3317A3BD1100E95A07 /* Backlog Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backlog Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66B8C3617A3BD1100E95A07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A66B8C3817A3BD1100E95A07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +104,6 @@
 		A66B8C9517A3D84800E95A07 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistItem.m; sourceTree = "<group>"; };
 		A66B8C9617A3D84800E95A07 /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
 		A66B8C9717A3D84800E95A07 /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
-		A66B8C9917A3D84800E95A07 /* DALinedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALinedTextView.h; sourceTree = "<group>"; };
-		A66B8C9A17A3D84800E95A07 /* DALinedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALinedTextView.m; sourceTree = "<group>"; };
 		A66B8C9B17A3D84800E95A07 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		A66B8C9C17A3D84800E95A07 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		AE12583C18C8E41E008F9C3F /* iOS_Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_Constants.h; sourceTree = "<group>"; };
@@ -89,43 +126,6 @@
 		AE7E559018C39C0C00C24F69 /* category@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category@2x.png"; sourceTree = "<group>"; };
 		AE7E559118C39C0C00C24F69 /* ipad-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-arrow.png"; sourceTree = "<group>"; };
 		AE7E559218C39C0C00C24F69 /* ipad-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-arrow@2x.png"; sourceTree = "<group>"; };
-		AEB0475018DCF4DD00B49E83 /* CHAbstractBinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractBinarySearchTree.h; sourceTree = "<group>"; };
-		AEB0475118DCF4DD00B49E83 /* CHAbstractBinarySearchTree_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractBinarySearchTree_Internal.h; sourceTree = "<group>"; };
-		AEB0475218DCF4DD00B49E83 /* CHAbstractListCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractListCollection.h; sourceTree = "<group>"; };
-		AEB0475318DCF4DD00B49E83 /* CHAnderssonTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAnderssonTree.h; sourceTree = "<group>"; };
-		AEB0475418DCF4DD00B49E83 /* CHAVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAVLTree.h; sourceTree = "<group>"; };
-		AEB0475518DCF4DD00B49E83 /* CHBidirectionalDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBidirectionalDictionary.h; sourceTree = "<group>"; };
-		AEB0475618DCF4DD00B49E83 /* CHBinaryHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBinaryHeap.h; sourceTree = "<group>"; };
-		AEB0475718DCF4DD00B49E83 /* CHCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBuffer.h; sourceTree = "<group>"; };
-		AEB0475818DCF4DD00B49E83 /* CHCircularBufferDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBufferDeque.h; sourceTree = "<group>"; };
-		AEB0475918DCF4DD00B49E83 /* CHCircularBufferQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBufferQueue.h; sourceTree = "<group>"; };
-		AEB0475A18DCF4DD00B49E83 /* CHCircularBufferStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBufferStack.h; sourceTree = "<group>"; };
-		AEB0475B18DCF4DD00B49E83 /* CHDataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDataStructures.h; sourceTree = "<group>"; };
-		AEB0475C18DCF4DD00B49E83 /* CHDataStructures_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDataStructures_Prefix.pch; sourceTree = "<group>"; };
-		AEB0475D18DCF4DD00B49E83 /* CHDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDeque.h; sourceTree = "<group>"; };
-		AEB0475E18DCF4DD00B49E83 /* CHDoublyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDoublyLinkedList.h; sourceTree = "<group>"; };
-		AEB0475F18DCF4DD00B49E83 /* CHHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHeap.h; sourceTree = "<group>"; };
-		AEB0476018DCF4DD00B49E83 /* CHLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLinkedList.h; sourceTree = "<group>"; };
-		AEB0476118DCF4DD00B49E83 /* CHListDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListDeque.h; sourceTree = "<group>"; };
-		AEB0476218DCF4DD00B49E83 /* CHListQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListQueue.h; sourceTree = "<group>"; };
-		AEB0476318DCF4DD00B49E83 /* CHListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListStack.h; sourceTree = "<group>"; };
-		AEB0476418DCF4DD00B49E83 /* CHMultiDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMultiDictionary.h; sourceTree = "<group>"; };
-		AEB0476518DCF4DD00B49E83 /* CHMutableArrayHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableArrayHeap.h; sourceTree = "<group>"; };
-		AEB0476618DCF4DD00B49E83 /* CHMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableDictionary.h; sourceTree = "<group>"; };
-		AEB0476718DCF4DD00B49E83 /* CHMutableSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableSet.h; sourceTree = "<group>"; };
-		AEB0476818DCF4DD00B49E83 /* CHOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOrderedDictionary.h; sourceTree = "<group>"; };
-		AEB0476918DCF4DD00B49E83 /* CHOrderedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOrderedSet.h; sourceTree = "<group>"; };
-		AEB0476A18DCF4DD00B49E83 /* CHQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQueue.h; sourceTree = "<group>"; };
-		AEB0476B18DCF4DD00B49E83 /* CHRedBlackTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRedBlackTree.h; sourceTree = "<group>"; };
-		AEB0476C18DCF4DD00B49E83 /* CHSearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSearchTree.h; sourceTree = "<group>"; };
-		AEB0476D18DCF4DD00B49E83 /* CHSinglyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSinglyLinkedList.h; sourceTree = "<group>"; };
-		AEB0476E18DCF4DD00B49E83 /* CHSortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSortedDictionary.h; sourceTree = "<group>"; };
-		AEB0476F18DCF4DD00B49E83 /* CHSortedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSortedSet.h; sourceTree = "<group>"; };
-		AEB0477018DCF4DD00B49E83 /* CHStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHStack.h; sourceTree = "<group>"; };
-		AEB0477118DCF4DD00B49E83 /* CHTreap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTreap.h; sourceTree = "<group>"; };
-		AEB0477218DCF4DD00B49E83 /* CHUnbalancedTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUnbalancedTree.h; sourceTree = "<group>"; };
-		AEB0477318DCF4DD00B49E83 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		AEB0477418DCF4DD00B49E83 /* libCHDataStructures.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCHDataStructures.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 				AE12584018C8E6A1008F9C3F /* CoreImage.framework in Frameworks */,
 				A66B8C3717A3BD1100E95A07 /* UIKit.framework in Frameworks */,
 				A66B8C3917A3BD1100E95A07 /* Foundation.framework in Frameworks */,
-				AEB0477518DCF4DD00B49E83 /* libCHDataStructures.a in Frameworks */,
+				77221AC41CCFE4B50054D349 /* libCHDataStructures.a in Frameworks */,
 				A66B8C3B17A3BD1100E95A07 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +145,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77221A991CCFE4B50054D349 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				77221A9A1CCFE4B50054D349 /* CHDataStructures */,
+				77221AC11CCFE4B50054D349 /* DALinedTextView */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		77221A9A1CCFE4B50054D349 /* CHDataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				77221A9B1CCFE4B50054D349 /* include */,
+				77221AC01CCFE4B50054D349 /* libCHDataStructures.a */,
+			);
+			path = CHDataStructures;
+			sourceTree = "<group>";
+		};
+		77221A9B1CCFE4B50054D349 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				77221A9C1CCFE4B50054D349 /* CHAbstractBinarySearchTree.h */,
+				77221A9D1CCFE4B50054D349 /* CHAbstractBinarySearchTree_Internal.h */,
+				77221A9E1CCFE4B50054D349 /* CHAbstractListCollection.h */,
+				77221A9F1CCFE4B50054D349 /* CHAnderssonTree.h */,
+				77221AA01CCFE4B50054D349 /* CHAVLTree.h */,
+				77221AA11CCFE4B50054D349 /* CHBidirectionalDictionary.h */,
+				77221AA21CCFE4B50054D349 /* CHBinaryHeap.h */,
+				77221AA31CCFE4B50054D349 /* CHCircularBuffer.h */,
+				77221AA41CCFE4B50054D349 /* CHCircularBufferDeque.h */,
+				77221AA51CCFE4B50054D349 /* CHCircularBufferQueue.h */,
+				77221AA61CCFE4B50054D349 /* CHCircularBufferStack.h */,
+				77221AA71CCFE4B50054D349 /* CHDataStructures.h */,
+				77221AA81CCFE4B50054D349 /* CHDataStructures_Prefix.pch */,
+				77221AA91CCFE4B50054D349 /* CHDeque.h */,
+				77221AAA1CCFE4B50054D349 /* CHDoublyLinkedList.h */,
+				77221AAB1CCFE4B50054D349 /* CHHeap.h */,
+				77221AAC1CCFE4B50054D349 /* CHLinkedList.h */,
+				77221AAD1CCFE4B50054D349 /* CHListDeque.h */,
+				77221AAE1CCFE4B50054D349 /* CHListQueue.h */,
+				77221AAF1CCFE4B50054D349 /* CHListStack.h */,
+				77221AB01CCFE4B50054D349 /* CHMultiDictionary.h */,
+				77221AB11CCFE4B50054D349 /* CHMutableArrayHeap.h */,
+				77221AB21CCFE4B50054D349 /* CHMutableDictionary.h */,
+				77221AB31CCFE4B50054D349 /* CHMutableSet.h */,
+				77221AB41CCFE4B50054D349 /* CHOrderedDictionary.h */,
+				77221AB51CCFE4B50054D349 /* CHOrderedSet.h */,
+				77221AB61CCFE4B50054D349 /* CHQueue.h */,
+				77221AB71CCFE4B50054D349 /* CHRedBlackTree.h */,
+				77221AB81CCFE4B50054D349 /* CHSearchTree.h */,
+				77221AB91CCFE4B50054D349 /* CHSinglyLinkedList.h */,
+				77221ABA1CCFE4B50054D349 /* CHSortedDictionary.h */,
+				77221ABB1CCFE4B50054D349 /* CHSortedSet.h */,
+				77221ABC1CCFE4B50054D349 /* CHStack.h */,
+				77221ABD1CCFE4B50054D349 /* CHTreap.h */,
+				77221ABE1CCFE4B50054D349 /* CHUnbalancedTree.h */,
+				77221ABF1CCFE4B50054D349 /* Util.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		77221AC11CCFE4B50054D349 /* DALinedTextView */ = {
+			isa = PBXGroup;
+			children = (
+				77221AC21CCFE4B50054D349 /* DALinedTextView.h */,
+				77221AC31CCFE4B50054D349 /* DALinedTextView.m */,
+			);
+			path = DALinedTextView;
+			sourceTree = "<group>";
+		};
 		A66B8C2A17A3BD1100E95A07 = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +237,6 @@
 		A66B8C3517A3BD1100E95A07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AEB0474E18DCF4DD00B49E83 /* CHDataStructures */,
 				AE12584118C8E6A9008F9C3F /* QuartzCore.framework */,
 				AE12583F18C8E6A1008F9C3F /* CoreImage.framework */,
 				A66B8C3617A3BD1100E95A07 /* UIKit.framework */,
@@ -202,7 +271,7 @@
 		A66B8C8F17A3D84800E95A07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A66B8C9817A3D84800E95A07 /* DALinedTextView */,
+				77221A991CCFE4B50054D349 /* thirdparty */,
 				AE7F155F185E4F3500EA4DC2 /* Storyboard */,
 				A66B8C9217A3D84800E95A07 /* AppDelegate.h */,
 				A66B8C9317A3D84800E95A07 /* AppDelegate.m */,
@@ -218,15 +287,6 @@
 				A66B8C9C17A3D84800E95A07 /* DataModel.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		A66B8C9817A3D84800E95A07 /* DALinedTextView */ = {
-			isa = PBXGroup;
-			children = (
-				A66B8C9917A3D84800E95A07 /* DALinedTextView.h */,
-				A66B8C9A17A3D84800E95A07 /* DALinedTextView.m */,
-			);
-			path = DALinedTextView;
 			sourceTree = "<group>";
 		};
 		AE7E557118C398B700C24F69 /* Resource FIles */ = {
@@ -282,58 +342,6 @@
 				A66B8C4E17A3BD1100E95A07 /* MainStoryboard_iPhone.storyboard */,
 			);
 			name = Storyboard;
-			sourceTree = "<group>";
-		};
-		AEB0474E18DCF4DD00B49E83 /* CHDataStructures */ = {
-			isa = PBXGroup;
-			children = (
-				AEB0474F18DCF4DD00B49E83 /* include */,
-				AEB0477418DCF4DD00B49E83 /* libCHDataStructures.a */,
-			);
-			path = CHDataStructures;
-			sourceTree = "<group>";
-		};
-		AEB0474F18DCF4DD00B49E83 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				AEB0475018DCF4DD00B49E83 /* CHAbstractBinarySearchTree.h */,
-				AEB0475118DCF4DD00B49E83 /* CHAbstractBinarySearchTree_Internal.h */,
-				AEB0475218DCF4DD00B49E83 /* CHAbstractListCollection.h */,
-				AEB0475318DCF4DD00B49E83 /* CHAnderssonTree.h */,
-				AEB0475418DCF4DD00B49E83 /* CHAVLTree.h */,
-				AEB0475518DCF4DD00B49E83 /* CHBidirectionalDictionary.h */,
-				AEB0475618DCF4DD00B49E83 /* CHBinaryHeap.h */,
-				AEB0475718DCF4DD00B49E83 /* CHCircularBuffer.h */,
-				AEB0475818DCF4DD00B49E83 /* CHCircularBufferDeque.h */,
-				AEB0475918DCF4DD00B49E83 /* CHCircularBufferQueue.h */,
-				AEB0475A18DCF4DD00B49E83 /* CHCircularBufferStack.h */,
-				AEB0475B18DCF4DD00B49E83 /* CHDataStructures.h */,
-				AEB0475C18DCF4DD00B49E83 /* CHDataStructures_Prefix.pch */,
-				AEB0475D18DCF4DD00B49E83 /* CHDeque.h */,
-				AEB0475E18DCF4DD00B49E83 /* CHDoublyLinkedList.h */,
-				AEB0475F18DCF4DD00B49E83 /* CHHeap.h */,
-				AEB0476018DCF4DD00B49E83 /* CHLinkedList.h */,
-				AEB0476118DCF4DD00B49E83 /* CHListDeque.h */,
-				AEB0476218DCF4DD00B49E83 /* CHListQueue.h */,
-				AEB0476318DCF4DD00B49E83 /* CHListStack.h */,
-				AEB0476418DCF4DD00B49E83 /* CHMultiDictionary.h */,
-				AEB0476518DCF4DD00B49E83 /* CHMutableArrayHeap.h */,
-				AEB0476618DCF4DD00B49E83 /* CHMutableDictionary.h */,
-				AEB0476718DCF4DD00B49E83 /* CHMutableSet.h */,
-				AEB0476818DCF4DD00B49E83 /* CHOrderedDictionary.h */,
-				AEB0476918DCF4DD00B49E83 /* CHOrderedSet.h */,
-				AEB0476A18DCF4DD00B49E83 /* CHQueue.h */,
-				AEB0476B18DCF4DD00B49E83 /* CHRedBlackTree.h */,
-				AEB0476C18DCF4DD00B49E83 /* CHSearchTree.h */,
-				AEB0476D18DCF4DD00B49E83 /* CHSinglyLinkedList.h */,
-				AEB0476E18DCF4DD00B49E83 /* CHSortedDictionary.h */,
-				AEB0476F18DCF4DD00B49E83 /* CHSortedSet.h */,
-				AEB0477018DCF4DD00B49E83 /* CHStack.h */,
-				AEB0477118DCF4DD00B49E83 /* CHTreap.h */,
-				AEB0477218DCF4DD00B49E83 /* CHUnbalancedTree.h */,
-				AEB0477318DCF4DD00B49E83 /* Util.h */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,8 +431,8 @@
 				A66B8CAC17A3D84800E95A07 /* AddNoteViewController.m in Sources */,
 				A66B8CAD17A3D84800E95A07 /* AppDelegate.m in Sources */,
 				A66B8CAE17A3D84800E95A07 /* ChecklistItem.m in Sources */,
+				77221AC51CCFE4B50054D349 /* DALinedTextView.m in Sources */,
 				A66B8CAF17A3D84800E95A07 /* NotesViewController.m in Sources */,
-				A66B8CB017A3D84800E95A07 /* DALinedTextView.m in Sources */,
 				A66B8CB117A3D84800E95A07 /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,7 +527,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/PARTHO'S\\ MAC\\ HD/iOS\\ DEVELOPMENT/Freelancing\\ Projects/Backlog\\ Notes/My\\ Codes/Latest/Backlog\\ Notes/CHDataStructures",
+					/PARTHOS,
+					MAC,
+					HD/iOS,
+					DEVELOPMENT/Freelancing,
+					Projects/Backlog,
+					Notes/My,
+					Codes/Latest/Backlog,
+					Notes/CHDataStructures,
+					"$(PROJECT_DIR)/Classes/thirdparty/CHDataStructures",
 				);
 				PRODUCT_NAME = "Backlog Notes";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -536,7 +552,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/PARTHO'S\\ MAC\\ HD/iOS\\ DEVELOPMENT/Freelancing\\ Projects/Backlog\\ Notes/My\\ Codes/Latest/Backlog\\ Notes/CHDataStructures",
+					/PARTHOS,
+					MAC,
+					HD/iOS,
+					DEVELOPMENT/Freelancing,
+					Projects/Backlog,
+					Notes/My,
+					Codes/Latest/Backlog,
+					Notes/CHDataStructures,
+					"$(PROJECT_DIR)/Classes/thirdparty/CHDataStructures",
 				);
 				PRODUCT_NAME = "Backlog Notes";
 				TARGETED_DEVICE_FAMILY = 1;
