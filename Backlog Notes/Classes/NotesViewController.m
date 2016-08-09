@@ -136,9 +136,7 @@
 	UITouch *touch = [touches anyObject];
 	CGPoint currentTouchPosition = [touch locationInView:self.tableView];
 	NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint: currentTouchPosition];
-	if (indexPath != nil)
-		
-	{
+    if (indexPath != nil) {
         [self tableView: self.tableView accessoryButtonTappedForRowWithIndexPath: indexPath];
 	}
 }
